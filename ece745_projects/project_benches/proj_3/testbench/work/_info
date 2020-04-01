@@ -1,0 +1,34 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/eos/lockers/workspace/ece/ece745/001/jehofman/lab_1_provided_files/ece745_projects/project_benches/lab_1/testbench
+vtop
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1579291142
+!i10b 1
+!s100 ^9XI1zR0>LN8:Gl1_DT:52
+IhgQiokPX`eS?:mDQR;;Qj0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 top_sv_unit
+S1
+R0
+w1579192755
+8top.sv
+Ftop.sv
+L0 3
+OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1579291142.000000
+!s107 top.sv|
+!s90 -sv|top.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

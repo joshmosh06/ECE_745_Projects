@@ -1,0 +1,769 @@
+rm -rf work *.wlf transcript
+vcom ../rtl/iicmb_int_pkg.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/iicmb_int_pkg.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package iicmb_int_pkg
+-- Compiling package body iicmb_int_pkg
+-- Loading package iicmb_int_pkg
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/iicmb_pkg.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/iicmb_pkg.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package iicmb_pkg
+-- Compiling package body iicmb_pkg
+-- Loading package iicmb_pkg
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/mbyte.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/mbyte.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package iicmb_pkg
+-- Loading package iicmb_int_pkg
+-- Compiling entity mbyte
+-- Compiling architecture rtl of mbyte
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/mbit.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/mbit.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package iicmb_int_pkg
+-- Compiling entity mbit
+-- Compiling architecture rtl of mbit
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/bus_state.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/bus_state.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bus_state
+-- Compiling architecture rtl of bus_state
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/filter.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/filter.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity filter
+-- Compiling architecture rtl of filter
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/conditioner.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/conditioner.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity conditioner
+-- Compiling architecture str of conditioner
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/conditioner_mux.vhd
+Start time: 11:08:46 on Mar 18,2020
+vcom ../rtl/conditioner_mux.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity conditioner_mux
+-- Compiling architecture str of conditioner_mux
+End time: 11:08:46 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/iicmb_m.vhd
+Start time: 11:08:47 on Mar 18,2020
+vcom ../rtl/iicmb_m.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package iicmb_pkg
+-- Loading package iicmb_int_pkg
+-- Compiling entity iicmb_m
+-- Compiling architecture str of iicmb_m
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/regblock.vhd
+Start time: 11:08:47 on Mar 18,2020
+vcom ../rtl/regblock.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package iicmb_pkg
+-- Compiling entity regblock
+-- Compiling architecture rtl of regblock
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/wishbone.vhd
+Start time: 11:08:47 on Mar 18,2020
+vcom ../rtl/wishbone.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity wishbone
+-- Compiling architecture rtl of wishbone
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vcom ../rtl/iicmb_m_wb.vhd
+Start time: 11:08:47 on Mar 18,2020
+vcom ../rtl/iicmb_m_wb.vhd 
+Model Technology ModelSim SE-64 vcom 10.6c Compiler 2017.07 Jul 25 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity iicmb_m_wb
+-- Compiling architecture str of iicmb_m_wb
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/ncsu_pkg/ncsu_pkg.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:47 on Mar 18,2020
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/ncsu_pkg/ncsu_pkg.sv 
+-- Compiling package ncsu_pkg
+
+Top level modules:
+	--none--
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:47 on Mar 18,2020
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_if.sv 
+-- Compiling package i2c_if_sv_unit
+-- Compiling interface i2c_if
+
+Top level modules:
+	--none--
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/i2c_pkg.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:47 on Mar 18,2020
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/i2c_pkg.sv 
+-- Compiling package i2c_pkg
+-- Importing package ncsu_pkg
+
+Top level modules:
+	--none--
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:47 on Mar 18,2020
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv 
+-- Compiling interface wb_if
+
+Top level modules:
+	--none--
+End time: 11:08:47 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/wb_pkg.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:47 on Mar 18,2020
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/wb_pkg.sv 
+-- Compiling package wb_pkg
+-- Importing package ncsu_pkg
+-- Importing package i2c_pkg
+
+Top level modules:
+	--none--
+End time: 11:08:48 on Mar 18,2020, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/i2cmb_env_pkg.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:48 on Mar 18,2020
+vlog /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/i2cmb_env_pkg.sv 
+-- Compiling package i2cmb_env_pkg
+-- Importing package ncsu_pkg
+-- Importing package i2c_pkg
+-- Importing package wb_pkg
+
+Top level modules:
+	--none--
+End time: 11:08:48 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog ../testbench/top.sv
+Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:48 on Mar 18,2020
+vlog ../testbench/top.sv 
+-- Compiling module top
+-- Importing package ncsu_pkg
+-- Importing package i2c_pkg
+-- Importing package wb_pkg
+-- Importing package i2cmb_env_pkg
+
+Top level modules:
+	top
+End time: 11:08:48 on Mar 18,2020, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vopt +acc top -o optimized_debug_top_tb
+Model Technology ModelSim SE-64 vopt 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 11:08:48 on Mar 18,2020
+vopt "+acc" top -o optimized_debug_top_tb 
+
+Top level modules:
+	top
+
+Analyzing design...
+-- Loading module top
+-- Importing package ncsu_pkg
+-- Importing package i2c_pkg
+-- Importing package wb_pkg
+-- Importing package i2cmb_env_pkg
+-- Loading interface i2c_if
+-- Loading interface wb_if
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity iicmb_m_wb
+-- Loading architecture str of iicmb_m_wb
+-- Loading entity wishbone
+-- Loading package NUMERIC_STD
+-- Loading package iicmb_pkg
+-- Loading entity regblock
+-- Loading package iicmb_int_pkg
+-- Loading entity iicmb_m
+-- Loading architecture rtl of wishbone
+-- Loading architecture rtl of regblock
+-- Loading package body iicmb_pkg
+-- Loading architecture str of iicmb_m
+-- Loading entity mbyte
+-- Loading entity mbit
+-- Loading entity conditioner_mux
+-- Loading package body iicmb_int_pkg
+-- Loading architecture rtl of mbyte
+-- Loading architecture rtl of mbit
+-- Loading architecture str of conditioner_mux
+-- Loading entity conditioner
+-- Loading architecture str of conditioner
+-- Loading entity filter
+-- Loading entity bus_state
+-- Loading architecture rtl of filter
+-- Loading architecture rtl of bus_state
+Optimizing 24 design-units (inlining 0/3 module instances, 0/15 architecture instances):
+-- Optimizing architecture rtl of mbit
+** Note: (vopt-143) Recognized 1 FSM in architecture body "mbit(rtl)".
+-- Optimizing architecture str of iicmb_m
+-- Optimizing architecture rtl of mbyte
+** Note: (vopt-143) Recognized 1 FSM in architecture body "mbyte(rtl)".
+-- Optimizing architecture str of conditioner_mux
+-- Optimizing architecture rtl of regblock
+-- Optimizing architecture rtl of wishbone
+-- Optimizing package iicmb_pkg
+-- Optimizing package body iicmb_pkg
+-- Optimizing architecture str of conditioner
+-- Optimizing architecture rtl of bus_state
+** Note: (vopt-143) Recognized 1 FSM in architecture body "bus_state(rtl)".
+-- Optimizing architecture rtl of filter
+-- Optimizing package iicmb_int_pkg
+-- Optimizing package body iicmb_int_pkg
+-- Optimizing architecture str of iicmb_m_wb
+-- Optimizing interface i2c_if(fast)
+-- Optimizing module top(fast)
+-- Optimizing interface wb_if(fast)
+-- Optimizing package i2c_if_sv_unit(fast)
+-- Optimizing package ncsu_pkg(fast)
+-- Optimizing package i2c_pkg(fast)
+-- Optimizing package wb_pkg(fast)
+-- Optimizing package i2cmb_env_pkg(fast)
+-- Optimizing interface i2c_if(fast)
+-- Optimizing interface wb_if(fast)
+Optimized design name is optimized_debug_top_tb
+End time: 11:08:49 on Mar 18,2020, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vsim -c -do "run -all" optimized_debug_top_tb
+Reading pref.tcl
+
+# 10.6c
+
+# vsim -c -do "run -all" optimized_debug_top_tb 
+# Start time: 11:08:50 on Mar 18,2020
+# //  ModelSim SE-64 10.6c Jul 25 2017Linux 3.10.0-1062.12.1.el7.x86_64
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.wb_if(fast)
+# Loading work.i2c_if(fast)
+# Loading work.ncsu_pkg(fast)
+# Loading work.i2c_pkg(fast)
+# Loading work.wb_pkg(fast)
+# Loading work.i2cmb_env_pkg(fast)
+# Loading work.top(fast)
+# Loading work.i2c_if_sv_unit(fast)
+# Loading work.i2c_if(fast)
+# Loading work.wb_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.wishbone(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.regblock(rtl)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+# Loading work.mbyte(rtl)#1
+# Loading work.mbit(rtl)#1
+# Loading work.conditioner_mux(str)#1
+# Loading work.conditioner(str)#1
+# Loading work.filter(rtl)#1
+# Loading work.bus_state(rtl)#1
+# run -all
+# ----------------------------------------------------------------
+# //  NCSU Package 
+# //  Version 1.0a
+# ----------------------------------------------------------------
+# 
+# 
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test1.env.i2c_agent.driver called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test1.env.i2c_agent.monitor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test1.env.wb_agent.monitor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test1.env.pred called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test1.env.scbd called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test1.env.coverage called
+# Test 1 Write 32 values 0 to 32 to i2c bus  
+# 
+# test1.env.wb_agent.driver name: 32-Byte-Write transaction_count: 0 address:0x20 rw:0 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# test1.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 8 address:0x20 rw:0 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# name: monitored_trans transaction_count: 1 address:0x20 rw:0 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32 i2c_monitor::run()
+# test1.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1 address:0x20 rw:0 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# test1.env.scbd wb_transaction MATCH!
+# test1.gen name: 32-Byte-Write transaction_count: 0 address:0x20 rw:0 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# Test 1 Complete
+# ** Warning: (vsim-3635) /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_configuration.svh(18): The name of the covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_configuration.svh' line 18 has been changed from 'cfg' to 'cfg#1' in order to avoid the name conflict with the existing covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_configuration.svh' line 18.
+#    Time: 5986100 ns  Iteration: 1  Instance: /top
+# ** Warning: (vsim-3635) /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_configuration.svh(20): The name of the covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_configuration.svh' line 20 has been changed from 'i2c_agent_config' to 'i2c_agent_config#1' in order to avoid the name conflict with the existing covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_configuration.svh' line 20.
+#    Time: 5986100 ns  Iteration: 1  Instance: /top
+# ** Warning: (vsim-3635) /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_configuration.svh(20): The name of the covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_configuration.svh' line 20 has been changed from 'wb_agent_config' to 'wb_agent_config#1' in order to avoid the name conflict with the existing covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_configuration.svh' line 20.
+#    Time: 5986100 ns  Iteration: 1  Instance: /top
+# NCSU_INFO:Time            598610000:ncsu_component::build():  of test2.env.i2c_agent.driver called
+# NCSU_INFO:Time            598610000:ncsu_component::build():  of test2.env.i2c_agent.monitor called
+# NCSU_INFO:Time            598610000:ncsu_component::build():  of test2.env.wb_agent.monitor called
+# NCSU_INFO:Time            598610000:ncsu_component::build():  of test2.env.pred called
+# NCSU_INFO:Time            598610000:ncsu_component::build():  of test2.env.scbd called
+# NCSU_INFO:Time            598610000:ncsu_component::build():  of test2.env.coverage called
+# Test 2 Read 32 values 100 to 131 from i2c bus
+# test2.env.wb_agent.driver name: 32-Byte-Read transaction_count: 110 address:0x20 rw:1 data:0x num_bytes:         32
+# test2.env.i2c_agent.driver name: 32-Byte-Read transaction_count: 111 address:0x20 rw:1 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# test2.gen name: 32-Byte-Read transaction_count: 111 address:0x20 rw:1 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# test2.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 119 address:0x20 rw:1 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# name: monitored_trans transaction_count: 112 address:0x20 rw:1 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32 i2c_monitor::run()
+# test2.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 112 address:0x20 rw:1 data:0x00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f num_bytes:         32
+# test2.env.scbd wb_transaction MATCH!
+# test2.gen name: 32-Byte-Read transaction_count: 110 address:0x20 rw:1 data:0x num_bytes:         32
+# Test 2 Complete
+# ** Warning: (vsim-3635) /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_configuration.svh(18): The name of the covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_configuration.svh' line 18 has been changed from 'cfg' to 'cfg#2' in order to avoid the name conflict with the existing covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_env_configuration.svh' line 18.
+#    Time: 11980760 ns  Iteration: 1  Instance: /top
+# ** Warning: (vsim-3635) /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_configuration.svh(20): The name of the covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_configuration.svh' line 20 has been changed from 'i2c_agent_config' to 'i2c_agent_config#2' in order to avoid the name conflict with the existing covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/i2c_pkg/src/i2c_configuration.svh' line 20.
+#    Time: 11980760 ns  Iteration: 1  Instance: /top
+# ** Warning: (vsim-3635) /afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_configuration.svh(20): The name of the covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_configuration.svh' line 20 has been changed from 'wb_agent_config' to 'wb_agent_config#2' in order to avoid the name conflict with the existing covergroup instance declared at file '/afs/eos/lockers/workspace/ece/ece745/001/jehofman/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/interface_packages/wb_pkg/src/wb_configuration.svh' line 20.
+#    Time: 11980760 ns  Iteration: 1  Instance: /top
+# NCSU_INFO:Time           1198076000:ncsu_component::build():  of test3.env.i2c_agent.driver called
+# NCSU_INFO:Time           1198076000:ncsu_component::build():  of test3.env.i2c_agent.monitor called
+# NCSU_INFO:Time           1198076000:ncsu_component::build():  of test3.env.wb_agent.monitor called
+# NCSU_INFO:Time           1198076000:ncsu_component::build():  of test3.env.pred called
+# NCSU_INFO:Time           1198076000:ncsu_component::build():  of test3.env.scbd called
+# NCSU_INFO:Time           1198076000:ncsu_component::build():  of test3.env.coverage called
+# Test 3 Read and Write 64 values 100 to 131 from i2c bus
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 221 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 349 address:0x20 rw:1 data:0x3f num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 349 address:0x20 rw:1 data:0x3f num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 420 address:0x20 rw:1 data:0x3f num_bytes:          1
+# name: monitored_trans transaction_count: 413 address:0x20 rw:1 data:0x3f num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 413 address:0x20 rw:1 data:0x3f num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 221 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 222 address:0x20 rw:0 data:0x40 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 435 address:0x20 rw:0 data:0x40 num_bytes:          1
+# name: monitored_trans transaction_count: 428 address:0x20 rw:0 data:0x40 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 428 address:0x20 rw:0 data:0x40 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 222 address:0x20 rw:0 data:0x40 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 223 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 350 address:0x20 rw:1 data:0x3e num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 350 address:0x20 rw:1 data:0x3e num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 450 address:0x20 rw:1 data:0x3e num_bytes:          1
+# name: monitored_trans transaction_count: 443 address:0x20 rw:1 data:0x3e num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 443 address:0x20 rw:1 data:0x3e num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 223 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 224 address:0x20 rw:0 data:0x42 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 465 address:0x20 rw:0 data:0x42 num_bytes:          1
+# name: monitored_trans transaction_count: 458 address:0x20 rw:0 data:0x42 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 458 address:0x20 rw:0 data:0x42 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 224 address:0x20 rw:0 data:0x42 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 225 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 351 address:0x20 rw:1 data:0x3d num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 351 address:0x20 rw:1 data:0x3d num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 480 address:0x20 rw:1 data:0x3d num_bytes:          1
+# name: monitored_trans transaction_count: 473 address:0x20 rw:1 data:0x3d num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 473 address:0x20 rw:1 data:0x3d num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 225 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 226 address:0x20 rw:0 data:0x44 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 495 address:0x20 rw:0 data:0x44 num_bytes:          1
+# name: monitored_trans transaction_count: 488 address:0x20 rw:0 data:0x44 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 488 address:0x20 rw:0 data:0x44 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 226 address:0x20 rw:0 data:0x44 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 227 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 352 address:0x20 rw:1 data:0x3c num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 352 address:0x20 rw:1 data:0x3c num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 510 address:0x20 rw:1 data:0x3c num_bytes:          1
+# name: monitored_trans transaction_count: 503 address:0x20 rw:1 data:0x3c num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 503 address:0x20 rw:1 data:0x3c num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 227 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 228 address:0x20 rw:0 data:0x46 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 525 address:0x20 rw:0 data:0x46 num_bytes:          1
+# name: monitored_trans transaction_count: 518 address:0x20 rw:0 data:0x46 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 518 address:0x20 rw:0 data:0x46 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 228 address:0x20 rw:0 data:0x46 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 229 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 353 address:0x20 rw:1 data:0x3b num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 353 address:0x20 rw:1 data:0x3b num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 540 address:0x20 rw:1 data:0x3b num_bytes:          1
+# name: monitored_trans transaction_count: 533 address:0x20 rw:1 data:0x3b num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 533 address:0x20 rw:1 data:0x3b num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 229 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 230 address:0x20 rw:0 data:0x48 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 555 address:0x20 rw:0 data:0x48 num_bytes:          1
+# name: monitored_trans transaction_count: 548 address:0x20 rw:0 data:0x48 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 548 address:0x20 rw:0 data:0x48 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 230 address:0x20 rw:0 data:0x48 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 231 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 354 address:0x20 rw:1 data:0x3a num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 354 address:0x20 rw:1 data:0x3a num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 570 address:0x20 rw:1 data:0x3a num_bytes:          1
+# name: monitored_trans transaction_count: 563 address:0x20 rw:1 data:0x3a num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 563 address:0x20 rw:1 data:0x3a num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 231 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 232 address:0x20 rw:0 data:0x4a num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 585 address:0x20 rw:0 data:0x4a num_bytes:          1
+# name: monitored_trans transaction_count: 578 address:0x20 rw:0 data:0x4a num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 578 address:0x20 rw:0 data:0x4a num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 232 address:0x20 rw:0 data:0x4a num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 233 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 355 address:0x20 rw:1 data:0x39 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 355 address:0x20 rw:1 data:0x39 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 600 address:0x20 rw:1 data:0x39 num_bytes:          1
+# name: monitored_trans transaction_count: 593 address:0x20 rw:1 data:0x39 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 593 address:0x20 rw:1 data:0x39 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 233 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 234 address:0x20 rw:0 data:0x4c num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 615 address:0x20 rw:0 data:0x4c num_bytes:          1
+# name: monitored_trans transaction_count: 608 address:0x20 rw:0 data:0x4c num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 608 address:0x20 rw:0 data:0x4c num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 234 address:0x20 rw:0 data:0x4c num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 235 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 356 address:0x20 rw:1 data:0x38 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 356 address:0x20 rw:1 data:0x38 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 630 address:0x20 rw:1 data:0x38 num_bytes:          1
+# name: monitored_trans transaction_count: 623 address:0x20 rw:1 data:0x38 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 623 address:0x20 rw:1 data:0x38 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 235 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 236 address:0x20 rw:0 data:0x4e num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 645 address:0x20 rw:0 data:0x4e num_bytes:          1
+# name: monitored_trans transaction_count: 638 address:0x20 rw:0 data:0x4e num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 638 address:0x20 rw:0 data:0x4e num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 236 address:0x20 rw:0 data:0x4e num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 237 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 357 address:0x20 rw:1 data:0x37 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 357 address:0x20 rw:1 data:0x37 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 660 address:0x20 rw:1 data:0x37 num_bytes:          1
+# name: monitored_trans transaction_count: 653 address:0x20 rw:1 data:0x37 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 653 address:0x20 rw:1 data:0x37 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 237 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 238 address:0x20 rw:0 data:0x50 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 675 address:0x20 rw:0 data:0x50 num_bytes:          1
+# name: monitored_trans transaction_count: 668 address:0x20 rw:0 data:0x50 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 668 address:0x20 rw:0 data:0x50 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 238 address:0x20 rw:0 data:0x50 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 239 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 358 address:0x20 rw:1 data:0x36 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 358 address:0x20 rw:1 data:0x36 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 690 address:0x20 rw:1 data:0x36 num_bytes:          1
+# name: monitored_trans transaction_count: 683 address:0x20 rw:1 data:0x36 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 683 address:0x20 rw:1 data:0x36 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 239 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 240 address:0x20 rw:0 data:0x52 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 705 address:0x20 rw:0 data:0x52 num_bytes:          1
+# name: monitored_trans transaction_count: 698 address:0x20 rw:0 data:0x52 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 698 address:0x20 rw:0 data:0x52 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 240 address:0x20 rw:0 data:0x52 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 241 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 359 address:0x20 rw:1 data:0x35 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 359 address:0x20 rw:1 data:0x35 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 720 address:0x20 rw:1 data:0x35 num_bytes:          1
+# name: monitored_trans transaction_count: 713 address:0x20 rw:1 data:0x35 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 713 address:0x20 rw:1 data:0x35 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 241 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 242 address:0x20 rw:0 data:0x54 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 735 address:0x20 rw:0 data:0x54 num_bytes:          1
+# name: monitored_trans transaction_count: 728 address:0x20 rw:0 data:0x54 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 728 address:0x20 rw:0 data:0x54 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 242 address:0x20 rw:0 data:0x54 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 243 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 360 address:0x20 rw:1 data:0x34 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 360 address:0x20 rw:1 data:0x34 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 750 address:0x20 rw:1 data:0x34 num_bytes:          1
+# name: monitored_trans transaction_count: 743 address:0x20 rw:1 data:0x34 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 743 address:0x20 rw:1 data:0x34 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 243 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 244 address:0x20 rw:0 data:0x56 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 765 address:0x20 rw:0 data:0x56 num_bytes:          1
+# name: monitored_trans transaction_count: 758 address:0x20 rw:0 data:0x56 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 758 address:0x20 rw:0 data:0x56 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 244 address:0x20 rw:0 data:0x56 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 245 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 361 address:0x20 rw:1 data:0x33 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 361 address:0x20 rw:1 data:0x33 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 780 address:0x20 rw:1 data:0x33 num_bytes:          1
+# name: monitored_trans transaction_count: 773 address:0x20 rw:1 data:0x33 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 773 address:0x20 rw:1 data:0x33 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 245 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 246 address:0x20 rw:0 data:0x58 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 795 address:0x20 rw:0 data:0x58 num_bytes:          1
+# name: monitored_trans transaction_count: 788 address:0x20 rw:0 data:0x58 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 788 address:0x20 rw:0 data:0x58 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 246 address:0x20 rw:0 data:0x58 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 247 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 362 address:0x20 rw:1 data:0x32 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 362 address:0x20 rw:1 data:0x32 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 810 address:0x20 rw:1 data:0x32 num_bytes:          1
+# name: monitored_trans transaction_count: 803 address:0x20 rw:1 data:0x32 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 803 address:0x20 rw:1 data:0x32 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 247 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 248 address:0x20 rw:0 data:0x5a num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 825 address:0x20 rw:0 data:0x5a num_bytes:          1
+# name: monitored_trans transaction_count: 818 address:0x20 rw:0 data:0x5a num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 818 address:0x20 rw:0 data:0x5a num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 248 address:0x20 rw:0 data:0x5a num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 249 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 363 address:0x20 rw:1 data:0x31 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 363 address:0x20 rw:1 data:0x31 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 840 address:0x20 rw:1 data:0x31 num_bytes:          1
+# name: monitored_trans transaction_count: 833 address:0x20 rw:1 data:0x31 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 833 address:0x20 rw:1 data:0x31 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 249 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 250 address:0x20 rw:0 data:0x5c num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 855 address:0x20 rw:0 data:0x5c num_bytes:          1
+# name: monitored_trans transaction_count: 848 address:0x20 rw:0 data:0x5c num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 848 address:0x20 rw:0 data:0x5c num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 250 address:0x20 rw:0 data:0x5c num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 251 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 364 address:0x20 rw:1 data:0x30 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 364 address:0x20 rw:1 data:0x30 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 870 address:0x20 rw:1 data:0x30 num_bytes:          1
+# name: monitored_trans transaction_count: 863 address:0x20 rw:1 data:0x30 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 863 address:0x20 rw:1 data:0x30 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 251 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 252 address:0x20 rw:0 data:0x5e num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 885 address:0x20 rw:0 data:0x5e num_bytes:          1
+# name: monitored_trans transaction_count: 878 address:0x20 rw:0 data:0x5e num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 878 address:0x20 rw:0 data:0x5e num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 252 address:0x20 rw:0 data:0x5e num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 253 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 365 address:0x20 rw:1 data:0x2f num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 365 address:0x20 rw:1 data:0x2f num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 900 address:0x20 rw:1 data:0x2f num_bytes:          1
+# name: monitored_trans transaction_count: 893 address:0x20 rw:1 data:0x2f num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 893 address:0x20 rw:1 data:0x2f num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 253 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 254 address:0x20 rw:0 data:0x60 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 915 address:0x20 rw:0 data:0x60 num_bytes:          1
+# name: monitored_trans transaction_count: 908 address:0x20 rw:0 data:0x60 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 908 address:0x20 rw:0 data:0x60 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 254 address:0x20 rw:0 data:0x60 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 255 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 366 address:0x20 rw:1 data:0x2e num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 366 address:0x20 rw:1 data:0x2e num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 930 address:0x20 rw:1 data:0x2e num_bytes:          1
+# name: monitored_trans transaction_count: 923 address:0x20 rw:1 data:0x2e num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 923 address:0x20 rw:1 data:0x2e num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 255 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 256 address:0x20 rw:0 data:0x62 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 945 address:0x20 rw:0 data:0x62 num_bytes:          1
+# name: monitored_trans transaction_count: 938 address:0x20 rw:0 data:0x62 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 938 address:0x20 rw:0 data:0x62 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 256 address:0x20 rw:0 data:0x62 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 257 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 367 address:0x20 rw:1 data:0x2d num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 367 address:0x20 rw:1 data:0x2d num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 960 address:0x20 rw:1 data:0x2d num_bytes:          1
+# name: monitored_trans transaction_count: 953 address:0x20 rw:1 data:0x2d num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 953 address:0x20 rw:1 data:0x2d num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 257 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 258 address:0x20 rw:0 data:0x64 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 975 address:0x20 rw:0 data:0x64 num_bytes:          1
+# name: monitored_trans transaction_count: 968 address:0x20 rw:0 data:0x64 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 968 address:0x20 rw:0 data:0x64 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 258 address:0x20 rw:0 data:0x64 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 259 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 368 address:0x20 rw:1 data:0x2c num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 368 address:0x20 rw:1 data:0x2c num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 990 address:0x20 rw:1 data:0x2c num_bytes:          1
+# name: monitored_trans transaction_count: 983 address:0x20 rw:1 data:0x2c num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 983 address:0x20 rw:1 data:0x2c num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 259 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 260 address:0x20 rw:0 data:0x66 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1005 address:0x20 rw:0 data:0x66 num_bytes:          1
+# name: monitored_trans transaction_count: 998 address:0x20 rw:0 data:0x66 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 998 address:0x20 rw:0 data:0x66 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 260 address:0x20 rw:0 data:0x66 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 261 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 369 address:0x20 rw:1 data:0x2b num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 369 address:0x20 rw:1 data:0x2b num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1020 address:0x20 rw:1 data:0x2b num_bytes:          1
+# name: monitored_trans transaction_count: 1013 address:0x20 rw:1 data:0x2b num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1013 address:0x20 rw:1 data:0x2b num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 261 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 262 address:0x20 rw:0 data:0x68 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1035 address:0x20 rw:0 data:0x68 num_bytes:          1
+# name: monitored_trans transaction_count: 1028 address:0x20 rw:0 data:0x68 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1028 address:0x20 rw:0 data:0x68 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 262 address:0x20 rw:0 data:0x68 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 263 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 370 address:0x20 rw:1 data:0x2a num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 370 address:0x20 rw:1 data:0x2a num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1050 address:0x20 rw:1 data:0x2a num_bytes:          1
+# name: monitored_trans transaction_count: 1043 address:0x20 rw:1 data:0x2a num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1043 address:0x20 rw:1 data:0x2a num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 263 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 264 address:0x20 rw:0 data:0x6a num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1065 address:0x20 rw:0 data:0x6a num_bytes:          1
+# name: monitored_trans transaction_count: 1058 address:0x20 rw:0 data:0x6a num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1058 address:0x20 rw:0 data:0x6a num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 264 address:0x20 rw:0 data:0x6a num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 265 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 371 address:0x20 rw:1 data:0x29 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 371 address:0x20 rw:1 data:0x29 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1080 address:0x20 rw:1 data:0x29 num_bytes:          1
+# name: monitored_trans transaction_count: 1073 address:0x20 rw:1 data:0x29 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1073 address:0x20 rw:1 data:0x29 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 265 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 266 address:0x20 rw:0 data:0x6c num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1095 address:0x20 rw:0 data:0x6c num_bytes:          1
+# name: monitored_trans transaction_count: 1088 address:0x20 rw:0 data:0x6c num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1088 address:0x20 rw:0 data:0x6c num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 266 address:0x20 rw:0 data:0x6c num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 267 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 372 address:0x20 rw:1 data:0x28 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 372 address:0x20 rw:1 data:0x28 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1110 address:0x20 rw:1 data:0x28 num_bytes:          1
+# name: monitored_trans transaction_count: 1103 address:0x20 rw:1 data:0x28 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1103 address:0x20 rw:1 data:0x28 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 267 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 268 address:0x20 rw:0 data:0x6e num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1125 address:0x20 rw:0 data:0x6e num_bytes:          1
+# name: monitored_trans transaction_count: 1118 address:0x20 rw:0 data:0x6e num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1118 address:0x20 rw:0 data:0x6e num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 268 address:0x20 rw:0 data:0x6e num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 269 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.i2c_agent.driver name: Byte-Read transaction_count: 373 address:0x20 rw:1 data:0x27 num_bytes:          1
+# test3.gen name: Byte-Read transaction_count: 373 address:0x20 rw:1 data:0x27 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1140 address:0x20 rw:1 data:0x27 num_bytes:          1
+# name: monitored_trans transaction_count: 1133 address:0x20 rw:1 data:0x27 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1133 address:0x20 rw:1 data:0x27 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Read transaction_count: 269 address:0x20 rw:1 data:0x num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Write transaction_count: 270 address:0x20 rw:0 data:0x70 num_bytes:          1
+# test3.env.scbd nb_transport: expected transaction name: Predicted I2c Trans transaction_count: 1155 address:0x20 rw:0 data:0x70 num_bytes:          1
+# name: monitored_trans transaction_count: 1148 address:0x20 rw:0 data:0x70 num_bytes:          1 i2c_monitor::run()
+# test3.env.scbd nb_put: actual transaction name: monitored_trans transaction_count: 1148 address:0x20 rw:0 data:0x70 num_bytes:          1
+# test3.env.scbd wb_transaction MATCH!
+# test3.gen name: Byte-Write transaction_count: 270 address:0x20 rw:0 data:0x70 num_bytes:          1
+# test3.env.wb_agent.driver name: Byte-Read transaction_count: 271 address:0x20 rw:1 data:0x num_bytes:          1
+# Break key hit
+# Break in Process dat_o_proc at ../rtl/wishbone.vhd line 120
+# Stopped at ../rtl/wishbone.vhd line 120
+VSIM 2> # Break key hit
+> # Break key hit
+# Break key hit
+# Break key hit
+VSIM 2> # Break key hit
+# Break key hit
+> # Break key hit
+# empty command name ""
+> # End time: 11:10:14 on Mar 18,2020, Elapsed time: 0:01:24
+# Errors: 1, Warnings: 6
