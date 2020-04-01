@@ -1,1 +1,0 @@
-vcom ../rtl/iicmb_int_pkg.vhd
